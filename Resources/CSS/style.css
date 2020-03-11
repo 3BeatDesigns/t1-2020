@@ -1,7 +1,43 @@
+/* -------------------- VARIABLES */
+
+/* -------------------- GLOBAL DEFAULTS */
+
 body {
-    background-color: rgb(15, 15, 15);
-    color: #f5f5f5;
-    font-style: bold;
-    font-family: Agency FB;
-    font-size: xx-large
+    background-color: #111111;
+    color: #b1b1b1;
+    font-family: Arial, Helvetica, sans-serif
 }
+
+/* -------------------- HEADINGS AND TYPE */
+
+h1 {
+    font-family: Agency FB;
+    color: #f0f0f0;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: Agency FB;
+    color: #f0f0f0;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #eeeeee
+}
+
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
+
+
+
+
