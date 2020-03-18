@@ -5,7 +5,8 @@
 body {
     background-color: #111111;
     color: #b1b1b1;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 img {
@@ -16,7 +17,7 @@ img {
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
-    font-family: Agency FB, sans-serif;
+    font-family: Agency FB, 'Teko', sans-serif;
     color: #f0f0f0;
     font-size: 80px;
 }
@@ -39,13 +40,29 @@ h3 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 /* -------------------- HEADER */
 
+header{
+    background-color: #050505;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
+
+footer{
+    background-color: #050505;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
 
 /* -------------------- MODULES */
 
