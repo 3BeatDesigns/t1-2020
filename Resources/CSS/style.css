@@ -4,39 +4,66 @@
 
 body {
     background-color: #111111;
-    color: #b1b1b1;
+    color: #444444;
     font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 18px;
+    box-sizing: border-box; 
 }
 
 img {
     max-width: 100%;
+    border: #111111;
+    border-style: solid;
+}
 
+header img {
+    border-style: none;
 }
 
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
     font-family: Agency FB, 'Teko', sans-serif;
-    color: #f0f0f0;
+    color: #111111;
     font-size: 80px;
+    line-height: 20mm;
 }
+
+h1-1{
+    font-family: Agency FB, 'Teko', sans-serif;
+    color: #b3b3b3;
+    font-size: 12px;
+    line-height: 0px;
+}
+
+/*Problem: Font used for TBD logo has massive spacing below the text.
+Find out how to decrease said spacing*/
 
 h2 {
     font-family: 'Teko', sans-serif;
-    color: #f0f0f0;
+    color: #111111;
     font-size: 40px;
+    font-weight: 100;
+    line-height: 10px;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #444444;
+    font-size: 18px
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    color: #eeeeee
+    color: #969696;
+    font-size: 15px;
 }
 
 /* -------------------- LAYOUTS */
 .content{
-    background-color: #202020;
+    background-color: #f5f5f5;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -48,9 +75,18 @@ h3 {
 
 header{
     background-color: #050505;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+header h1 {
+   margin-top: 0; 
+   
 }
 
 /* -------------------- NAVIGATION */
@@ -62,6 +98,10 @@ footer{
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
 }
 
 /* -------------------- MODULES */
