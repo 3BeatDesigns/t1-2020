@@ -1,9 +1,14 @@
 /* -------------------- VARIABLES */
 
+:root{
+    --main-color: #111111;
+
+}
+
 /* -------------------- GLOBAL DEFAULTS */
 
 body {
-    background-color: #111111;
+    background-color: var(--main-color);
     color: #444444;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -12,7 +17,7 @@ body {
 
 img {
     max-width: 100%;
-    border: #111111;
+    border: var(--main-color);
     border-style: solid;
 }
 
@@ -24,7 +29,7 @@ header img {
 
 h1 {
     font-family: Agency FB, 'Teko', sans-serif;
-    color: #111111;
+    color: var(--main-color);
     font-size: 80px;
     line-height: 20mm;
 }
@@ -61,6 +66,13 @@ h4 {
     font-size: 15px;
 }
 
+h5 {
+    font-family: 'Teko',sans-serif;
+    font-style: normal;
+    color: #969696;
+    font-size: 25px;
+}
+
 /* -------------------- LAYOUTS */
 .content{
     background-color: #f5f5f5;
@@ -72,15 +84,15 @@ h4 {
 }
 
 /* -------------------- HEADER */
-
 header{
-    background-color: #050505;
+    background-color: var(--main-color);
+    background-image: url(../TBDLogo.png);
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
 
 }
 
@@ -91,16 +103,75 @@ header h1 {
 
 /* -------------------- NAVIGATION */
 
+.nav li{
+    color: #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.nav ul {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 100;
+    overflow: hidden;
+    background-color: #111111;
+    text-align: center; 
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 2px 3px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    min-width: 100px;
+    width: auto;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 2px 3px;
+    padding-top: 2px;
+    text-decoration: none;
+    display: sticky;
+  }
+  
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
 /* -------------------- FOOTER */
 
 footer{
     background-color: #050505;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-block-start: -15px;
+    margin-bottom: -10px;
+    max-width: 100%;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: center;
 }
 
