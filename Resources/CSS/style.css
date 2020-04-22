@@ -17,13 +17,13 @@ body {
 
 img {
     max-width: 100%;
-    border: var(--main-color);
-    border-style: solid;
 }
 
 header img {
     border-style: none;
 }
+
+
 
 /* -------------------- HEADINGS AND TYPE */
 
@@ -56,7 +56,9 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: #444444;
-    font-size: 18px
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 15px;
 }
 
 h4 {
@@ -79,6 +81,19 @@ h5 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.contentabout{
+    background-color: #f5f5f5;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -128,6 +143,8 @@ ul {
     overflow: hidden;
     background-color: #333;
     font-family: 'Teko',sans-serif;
+    padding-left: 350px;
+    margin-bottom: -30px;
   }
   
   /* Links inside the navbar */
@@ -136,14 +153,15 @@ ul {
     font-size: 30px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 28px 32px;
     text-decoration: none;
   }
   
   /* The dropdown container */
   .dropdown {
-    float: ;
+    float: left;
     overflow: hidden;
+    margin-left: 30px;
   }
   
   /* Dropdown button */
@@ -152,7 +170,8 @@ ul {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    text-align: center;
+    padding: 28px 32px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -192,6 +211,8 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
 /* -------------------- FOOTER */
 
 footer{
@@ -208,7 +229,51 @@ footer{
 }
 
 /* -------------------- MODULES */
+.left {
+    float: left;
+    padding: 0px 15px 15px 0px;
+    align-items: left;
+}
+.right{
+    float: right;
+    padding: 0 -10%;
+}
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+ 
+  input[type=submit] {
+    background-color: rgb(109, 109, 109);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: #b3b3b3;
+  }
+  
+  .container {
+    width: 700px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #3a1111;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: left;
+  }
 
-
+  a{
+    color: #444444;
+  }
 
